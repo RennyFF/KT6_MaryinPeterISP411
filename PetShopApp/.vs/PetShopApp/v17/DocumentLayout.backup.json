@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|c:\\users\\comcuru\\desktop\\pro\\kt6_maryinpeterisp411\\petshopapp\\petshopapp\\pages\\productlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|solutionrelative:petshopapp\\pages\\productlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|c:\\users\\comcuru\\desktop\\pro\\kt6_maryinpeterisp411\\petshopapp\\petshopapp\\pages\\productlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|solutionrelative:petshopapp\\pages\\productlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|c:\\users\\comcuru\\desktop\\pro\\kt6_maryinpeterisp411\\petshopapp\\petshopapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|solutionrelative:petshopapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|c:\\users\\comcuru\\desktop\\pro\\kt6_maryinpeterisp411\\petshopapp\\petshopapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|solutionrelative:petshopapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|c:\\users\\comcuru\\desktop\\pro\\kt6_maryinpeterisp411\\petshopapp\\petshopapp\\utils\\imagetobytes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|solutionrelative:petshopapp\\utils\\imagetobytes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|c:\\users\\comcuru\\desktop\\pro\\kt6_maryinpeterisp411\\petshopapp\\petshopapp\\pages\\authpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|solutionrelative:petshopapp\\pages\\authpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|c:\\users\\comcuru\\desktop\\pro\\kt6_maryinpeterisp411\\petshopapp\\petshopapp\\pages\\productadminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|solutionrelative:petshopapp\\pages\\productadminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|c:\\users\\comcuru\\desktop\\pro\\kt6_maryinpeterisp411\\petshopapp\\petshopapp\\pages\\productadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|solutionrelative:petshopapp\\pages\\productadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|c:\\users\\comcuru\\desktop\\pro\\kt6_maryinpeterisp411\\petshopapp\\petshopapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|solutionrelative:petshopapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|c:\\users\\comcuru\\desktop\\pro\\kt6_maryinpeterisp411\\petshopapp\\petshopapp\\pages\\authpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|solutionrelative:petshopapp\\pages\\authpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|c:\\users\\comcuru\\desktop\\pro\\kt6_maryinpeterisp411\\petshopapp\\petshopapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{26963BB6-6DC0-446A-B867-1CED47A5F1AA}|PetShopApp\\PetShopApp.csproj|solutionrelative:petshopapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImageToBytes.cs",
+              "DocumentMoniker": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\Utils\\ImageToBytes.cs",
+              "RelativeDocumentMoniker": "PetShopApp\\Utils\\ImageToBytes.cs",
+              "ToolTip": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\Utils\\ImageToBytes.cs",
+              "RelativeToolTip": "PetShopApp\\Utils\\ImageToBytes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:18:20.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PetShopApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PetShopApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:05:20.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PetShopApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\MainWindow.xaml",
+              "RelativeToolTip": "PetShopApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T08:12:40.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductListPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\Pages\\ProductListPage.xaml.cs",
+              "RelativeDocumentMoniker": "PetShopApp\\Pages\\ProductListPage.xaml.cs",
+              "ToolTip": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\Pages\\ProductListPage.xaml.cs*",
+              "RelativeToolTip": "PetShopApp\\Pages\\ProductListPage.xaml.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwDYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:09:48.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductAdminPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\Pages\\ProductAdminPage.xaml.cs",
+              "RelativeDocumentMoniker": "PetShopApp\\Pages\\ProductAdminPage.xaml.cs",
+              "ToolTip": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\Pages\\ProductAdminPage.xaml.cs",
+              "RelativeToolTip": "PetShopApp\\Pages\\ProductAdminPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:09:36.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\App.config",
+              "RelativeDocumentMoniker": "PetShopApp\\App.config",
+              "ToolTip": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\App.config",
+              "RelativeToolTip": "PetShopApp\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAADfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-29T08:06:45.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductAdminPage.xaml",
+              "DocumentMoniker": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\Pages\\ProductAdminPage.xaml",
+              "RelativeDocumentMoniker": "PetShopApp\\Pages\\ProductAdminPage.xaml",
+              "ToolTip": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\Pages\\ProductAdminPage.xaml",
+              "RelativeToolTip": "PetShopApp\\Pages\\ProductAdminPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T08:01:54.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\Pages\\ProductListPage.xaml",
+              "RelativeDocumentMoniker": "PetShopApp\\Pages\\ProductListPage.xaml",
+              "ToolTip": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\Pages\\ProductListPage.xaml",
+              "RelativeToolTip": "PetShopApp\\Pages\\ProductListPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T08:01:37.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pages\\AuthPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\Pages\\AuthPage.xaml.cs",
+              "RelativeDocumentMoniker": "PetShopApp\\Pages\\AuthPage.xaml.cs",
+              "ToolTip": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\Pages\\AuthPage.xaml.cs",
+              "RelativeToolTip": "PetShopApp\\Pages\\AuthPage.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAACcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:00:34.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\App.xaml",
+              "RelativeDocumentMoniker": "PetShopApp\\App.xaml",
+              "ToolTip": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\App.xaml",
+              "RelativeToolTip": "PetShopApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T07:51:58.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthPage.xaml",
+              "DocumentMoniker": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\Pages\\AuthPage.xaml",
+              "RelativeDocumentMoniker": "PetShopApp\\Pages\\AuthPage.xaml",
+              "ToolTip": "C:\\Users\\comcuru\\Desktop\\pro\\KT6_MaryinPeterISP411\\PetShopApp\\PetShopApp\\Pages\\AuthPage.xaml",
+              "RelativeToolTip": "PetShopApp\\Pages\\AuthPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T07:49:04.869Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

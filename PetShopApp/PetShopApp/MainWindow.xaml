@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PetShopApp"
         mc:Ignorable="d"
-        Title="ИС - товары для животных" Height="550" Width="800">
+        Title="ИС - товары для животных" Height="550" Width="1000">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="40"></RowDefinition>
@@ -19,8 +19,7 @@
             </Grid.ColumnDefinitions>
             <Image Grid.Column="1" Source="/Resources/logo.png" VerticalAlignment="Center" HorizontalAlignment="Left"></Image>
             <TextBlock Grid.Column="1" Text="ООО «Товары для животных»" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold"></TextBlock>
-
-            <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Row="1"></Frame>
         </Grid>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Row="1"></Frame>
     </Grid>
 </Window>

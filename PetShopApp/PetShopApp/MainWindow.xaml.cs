@@ -23,6 +23,8 @@ namespace PetShopApp
         public MainWindow()
         {
             InitializeComponent();
+            Utils.Navigation.CurrentFrame = MainFrame;
+            Utils.Navigation.CurrentFrame.Navigate(new Pages.AuthPage());
         }
     }
 }

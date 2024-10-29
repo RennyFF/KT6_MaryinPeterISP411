@@ -6,8 +6,7 @@
       xmlns:local="clr-namespace:PetShopApp.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="510" d:DesignWidth="800"
-      Height="510"
-      Width="800"
+      Background="White"
       Title="ИС - авторизация">
 
     <Grid>
@@ -15,5 +14,25 @@
             <RowDefinition></RowDefinition>
             <RowDefinition Height="40"></RowDefinition>
         </Grid.RowDefinitions>
+        <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Авторизация" Grid.ColumnSpan="2" FontSize="22" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            <Label Content="Логин:" Grid.Row="1" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 0 20 0"></Label>
+            <TextBox x:Name="LoginTB" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBox>
+            <Label Content="Пароль:" Grid.Row="2" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 0 20 0"></Label>
+            <PasswordBox x:Name="PasswordPB" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left"></PasswordBox>
+            <Button x:Name="AuthUser" Click="AuthUser_Click" Content="Войти" Grid.ColumnSpan="2" Grid.Row="3" HorizontalAlignment="Center"></Button>
+        </Grid>
+        <Button x:Name="GuestAuth" Click="GuestAuth_Click" Content="Войти как гость" Width="150" Grid.Row="1" HorizontalAlignment="Right" Margin="0 0 10 0"></Button>
     </Grid>
 </Page>
