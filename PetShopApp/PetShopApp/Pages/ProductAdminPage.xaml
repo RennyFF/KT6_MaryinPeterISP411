@@ -5,10 +5,94 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:PetShopApp.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="ProductAdminPage">
+    d:DesignHeight="510" d:DesignWidth="800"
+      Background="White"
+      Title="ИС - список товаров администратора">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10 0 0 0">
+            <Run Text="Выведено: "></Run>
+            <Run x:Name="AllProductCountity"></Run>
+            <Run Text="товаров"></Run>
+            </TextBlock>
+            <TextBlock x:Name="FIOLabel" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 0 10 0" ></TextBlock>
+        </Grid>
+
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10 0 0 0" Orientation="Horizontal">
+            <TextBlock Text="Поиск:" VerticalAlignment="Center"></TextBlock>
+            <TextBox x:Name="SearchTB" TextChanged="SearchTB_TextChanged" VerticalAlignment="Center" Tag="Поиск товаров" ></TextBox>
+            <RadioButton VerticalAlignment="Center" Content="По убыванию" x:Name="ByDesc" Margin="20 0"  Checked="ByDesc_Checked"></RadioButton>
+            <RadioButton VerticalAlignment="Center" Content="По возрастанию" x:Name="ByAsc" Margin="0 0 20 0" Checked="ByAsc_Checked"></RadioButton>
+            <ComboBox x:Name="ManufacturiesFilter" DisplayMemberPath="Name" SelectionChanged="ManufacturiesFilter_SelectionChanged"></ComboBox>
+        </StackPanel>
+
+        <ListView x:Name="ProductsListView" Grid.Row="2">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="0">
+                            <Image Margin="10" Height="133">
+                                <Image.Source>
+                                    <Binding Path="ProductPhoto">
+                                        <Binding.TargetNullValue>
+                                            <BitmapImage UriSource="/Resources/picture.png"></BitmapImage>
+                                        </Binding.TargetNullValue>
+                                    </Binding>
+                                </Image.Source>
+                            </Image>
+                        </Border>
+                        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" HorizontalAlignment="Center" Margin="10 0 10 0">
+                            <StackPanel Margin="10" Width="350" VerticalAlignment="Center">
+                                <TextBlock Text="{Binding ProductNames.Name}" FontWeight="Bold" TextAlignment="Left"></TextBlock>
+                                <TextBlock Text="{Binding ProductDescription}" TextWrapping="Wrap" TextAlignment="Left"></TextBlock>
+                                <TextBlock TextAlignment="Left">
+                                        <Run Text="Производитель:"></Run>
+                                        <Run Text="{Binding Manufacturies.Name}"></Run>
+                                </TextBlock>
+                                <TextBlock TextAlignment="Left">
+                                        <Run Text="Цена:"></Run>
+                                        <Run Text="{Binding 
+                                            ProductCost}"></Run>
+                                </TextBlock>
+                            </StackPanel>
+                        </Border>
+                        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="2"  Width="150">
+                            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center">
+                                        <Run Text="В наличии:"></Run>
+                                        <Run Text="{Binding ProductQuantityInStock}"></Run>
+                                    <Run Text="шт."></Run>
+                            </TextBlock>
+                        </Border>
+                        <StackPanel Grid.Column="3" VerticalAlignment="Center" Margin="10 0 0 0" >
+                            <Button Content="Изменить" Margin="0 0 0 10" x:Name="EditButton" Click="EditButton_Click"></Button>
+                            <Button Content="Удалить" x:Name="DeleteButton" Click="DeleteButton_Click"></Button>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button Content="Назад" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10 0 0 0" x:Name="BackButton" Click="BackButton_Click"></Button>
+
+        <Button Content="Добавить" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 0 10 0" x:Name="AddButton" Click="AddButton_Click"></Button>
     </Grid>
 </Page>

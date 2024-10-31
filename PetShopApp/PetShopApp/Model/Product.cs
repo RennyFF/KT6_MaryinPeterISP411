@@ -25,8 +25,8 @@ namespace PetShopApp.Model
         public int ProductNameID { get; set; }
         public int ProductUnitID { get; set; }
         public decimal ProductCost { get; set; }
-        public int ProductMaxDiscount { get; set; }
-        public int ProductManufacturerID { get; set; }
+        public Nullable<int> ProductMaxDiscount { get; set; }
+        public Nullable<int> ProductManufacturerID { get; set; }
         public int ProductImporterID { get; set; }
         public int ProductCategoryID { get; set; }
         public Nullable<int> ProductCurrentDiscount { get; set; }

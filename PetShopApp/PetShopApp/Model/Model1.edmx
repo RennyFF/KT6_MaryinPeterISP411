@@ -63,12 +63,12 @@
             <PropertyRef Name="ProductID" />
           </Key>
           <Property Name="ProductID" Type="int" Nullable="false" />
-          <Property Name="ProductArticleNumber" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="ProductArticleNumber" Type="nvarchar" MaxLength="100" />
           <Property Name="ProductNameID" Type="int" Nullable="false" />
           <Property Name="ProductUnitID" Type="int" Nullable="false" />
           <Property Name="ProductCost" Type="decimal" Precision="8" Scale="2" Nullable="false" />
-          <Property Name="ProductMaxDiscount" Type="int" Nullable="false" />
-          <Property Name="ProductManufacturerID" Type="int" Nullable="false" />
+          <Property Name="ProductMaxDiscount" Type="int" />
+          <Property Name="ProductManufacturerID" Type="int" />
           <Property Name="ProductImporterID" Type="int" Nullable="false" />
           <Property Name="ProductCategoryID" Type="int" Nullable="false" />
           <Property Name="ProductCurrentDiscount" Type="int" />
@@ -221,7 +221,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Product_Manufacturies">
-          <End Role="Manufacturies" Type="Self.Manufacturies" Multiplicity="1" />
+          <End Role="Manufacturies" Type="Self.Manufacturies" Multiplicity="0..1" />
           <End Role="Product" Type="Self.Product" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Manufacturies">
@@ -405,12 +405,12 @@
             <PropertyRef Name="ProductID" />
           </Key>
           <Property Name="ProductID" Type="Int32" Nullable="false" />
-          <Property Name="ProductArticleNumber" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ProductArticleNumber" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="ProductNameID" Type="Int32" Nullable="false" />
           <Property Name="ProductUnitID" Type="Int32" Nullable="false" />
           <Property Name="ProductCost" Type="Decimal" Precision="8" Scale="2" Nullable="false" />
-          <Property Name="ProductMaxDiscount" Type="Int32" Nullable="false" />
-          <Property Name="ProductManufacturerID" Type="Int32" Nullable="false" />
+          <Property Name="ProductMaxDiscount" Type="Int32" />
+          <Property Name="ProductManufacturerID" Type="Int32" />
           <Property Name="ProductImporterID" Type="Int32" Nullable="false" />
           <Property Name="ProductCategoryID" Type="Int32" Nullable="false" />
           <Property Name="ProductCurrentDiscount" Type="Int32" />
@@ -516,7 +516,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Product_Manufacturies">
-          <End Role="Manufacturies" Type="Self.Manufacturies" Multiplicity="1" />
+          <End Role="Manufacturies" Type="Self.Manufacturies" Multiplicity="0..1" />
           <End Role="Product" Type="Self.Product" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Manufacturies">

@@ -35,25 +35,43 @@ namespace PetShopApp.Pages
             ProductsListView.ItemsSource = ProductsWithFilter;
             FIOLabel.Text = CurrentUser.UserSurname + " " + CurrentUser.UserName + " " + CurrentUser.UserPatronymic;
             AllProductCountity.Text = ProductsWithFilter.Count.ToString();
+            var Manufacturies = Model.TradeEntities.GetContext().Manufacturies.ToList();
+            Manufacturies.Insert(0, new Model.Manufacturies() {Name = "Все производители" });
+            ManufacturiesFilter.ItemsSource = Manufacturies;
+            ManufacturiesFilter.SelectedIndex = 0;
         }
 
         private void Update()
         {
-            ProductsWithFilter = Model.TradeEntities.GetContext().Product.Where(i => i.ProductDescription.Contains(SearchTB.Text) || 
-            i.Manufacturies.Name.Contains(SearchTB.Text) || 
-            i.ProductCost.ToString().Contains(SearchTB.Text)  ||
-            i.ProductNames.Name.Contains(SearchTB.Text) ||
-            i.ProductQuantityInStock.ToString().Contains(SearchTB.Text))
-                .ToList();
-
-            //not working
-            if ((bool)ByAsc.IsChecked)
+            try
             {
-                ProductsWithFilter.OrderBy(i => i).ToList();
+                ProductsWithFilter = Model.TradeEntities.GetContext().Product
+                    .Where(i => i.ProductDescription.ToString().ToLower().Contains(SearchTB.Text.ToLower()) ||
+          i.Manufacturies.Name.ToString().ToLower().Contains(SearchTB.Text.ToLower()) ||
+          i.ProductCost.ToString().Contains(SearchTB.Text) ||
+          i.ProductNames.Name.ToString().ToLower().Contains(SearchTB.Text.ToLower()) ||
+          i.ProductQuantityInStock.ToString().Contains(SearchTB.Text))
+              .ToList();
+
+                if (ByAsc.IsChecked == true)
+                {
+                    ProductsWithFilter = ProductsWithFilter.OrderBy(i => i.ProductCost).ToList();
+                }
+                else if (ByDesc.IsChecked == true)
+                {
+                    ProductsWithFilter = ProductsWithFilter.OrderByDescending(i => i.ProductCost).ToList();
+                }
+                if(ManufacturiesFilter.SelectedIndex != 0)
+                {
+                    ProductsWithFilter = ProductsWithFilter.ToList().Where(i => i.ProductManufacturerID == ManufacturiesFilter.SelectedIndex).ToList();
+                }
+                AllProductCountity.Text = ProductsWithFilter.Count.ToString();
+                ProductsListView.ItemsSource = ProductsWithFilter;
             }
-            else if ((bool)ByDesc.IsChecked) {
-                ProductsWithFilter.OrderByDescending(i => i).ToList();
+            catch (Exception ex)
+            {
             }
+
         }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
