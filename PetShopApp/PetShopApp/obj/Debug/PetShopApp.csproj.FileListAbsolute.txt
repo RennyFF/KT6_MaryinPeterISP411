@@ -58,3 +58,34 @@ C:\Users\comcuru\Desktop\das\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Deb
 C:\Users\comcuru\Desktop\das\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\PetShopApp.pdb
 C:\Users\comcuru\Desktop\das\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\Pages\AddEditPage.g.cs
 C:\Users\comcuru\Desktop\das\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\Pages\AddEditPage.baml
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\PetShopApp.csproj.AssemblyReference.cache
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\MainWindow.g.cs
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\Pages\AddEditPage.g.cs
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\Pages\AuthPage.g.cs
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\Pages\ProductAdminPage.g.cs
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\Pages\ProductListPage.g.cs
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\App.g.cs
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\PetShopApp_Content.g.cs
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\PetShopApp_MarkupCompile.cache
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\PetShopApp_MarkupCompile.lref
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\PetShopApp.exe
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\PetShopApp.pdb
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\bin\Debug\PetShopApp.exe.config
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\bin\Debug\PetShopApp.exe
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\bin\Debug\PetShopApp.pdb
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\bin\Debug\EntityFramework.dll
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\bin\Debug\EntityFramework.xml
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\App.baml
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\MainWindow.baml
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\Pages\AddEditPage.baml
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\Pages\AuthPage.baml
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\Pages\ProductAdminPage.baml
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\Pages\ProductListPage.baml
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\PetShopApp.g.resources
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\PetShopApp.Properties.Resources.resources
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\PetShopApp.csproj.GenerateResource.cache
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\PetShopApp.csproj.CoreCompileInputs.cache
+C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\obj\Debug\PetShopApp.csproj.CopyComplete

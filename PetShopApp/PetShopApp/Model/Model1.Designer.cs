@@ -1,4 +1,4 @@
-﻿// Создание кода T4 для модели "C:\Users\comcuru\Desktop\das\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\Model\Model1.edmx" включено. 
+﻿// Создание кода T4 для модели "C:\Users\comcuru\Desktop\Новая папка\KT6_MaryinPeterISP411\PetShopApp\PetShopApp\Model\Model1.edmx" включено. 
 // Чтобы включить формирование кода прежних версий, измените значение свойства "Стратегия создания кода" конструктора
 // на "Legacy ObjectContext". Это свойство доступно в окне "Свойства", если модель
 // открыта в конструкторе.

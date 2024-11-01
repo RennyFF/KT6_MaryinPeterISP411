@@ -104,19 +104,28 @@ namespace PetShopApp.Pages
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
-            Model.TradeEntities.GetContext().Product.ToList().Remove((sender as Button).DataContext as Model.Product);
-            Model.TradeEntities.GetContext().SaveChanges();
+            var thisProduct = (sender as Button).DataContext as Model.Product;
+            if(Model.TradeEntities.GetContext().Order.ToList().Where(i => i.OrderProductID == thisProduct.ProductID).FirstOrDefault() == null)
+            {
+                Model.TradeEntities.GetContext().Product.Remove(thisProduct);
+                Model.TradeEntities.GetContext().SaveChanges();
+                MessageBox.Show("Товар удален!", "Уведомление!", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            else
+            {
+                MessageBox.Show("Товар присутствует в заказе!", "Ошибка!", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
             Update();
         }
 
         private void EditButton_Click(object sender, RoutedEventArgs e)
         {
-            Utils.Navigation.CurrentFrame.Navigate(new Pages.AddEditPage());
+            Utils.Navigation.CurrentFrame.Navigate(new Pages.AddEditPage((sender as Button).DataContext as Model.Product, false, CurrentUser));
         }
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            Utils.Navigation.CurrentFrame.Navigate(new Pages.AddEditPage());
+            Utils.Navigation.CurrentFrame.Navigate(new Pages.AddEditPage(new Model.Product(), true, CurrentUser));
         }
     }
 }
